@@ -1,7 +1,7 @@
 .sidebar{
     display: inline-grid;
-    background-color: #1d3f09;
-    color: #cfd4c2;
+    background-color: #51AEAE;
+    color: #ffffff;
     grid-template-columns: 300px;
     grid-template-rows: repeat(10, 83.3px);
     text-align:right;
@@ -34,9 +34,8 @@
     grid-template-rows: 100px;
     border-style: solid;
     border-width: 1px;
-    background-color: #b9cfba;
-    color: #384d0c;
-    border-color: gray;
+    color: #51AEAE;
+    border-color: rgb(179, 175, 175);
     margin-bottom: 800px;
 }
 
@@ -44,7 +43,7 @@
     display: inline-grid;
     text-align: end;
     margin-top: -50px;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 .headerbuttons{
@@ -60,21 +59,61 @@
 .new,.upload,.share{
     border-radius: 100px;
     padding: 10px;
-    background-color: #0a3129;
-    color: white;
+    border: none;
+    background-color: #A1DCD8;
+    color: rgb(42, 129, 116);
     font-size: 1rem;
     width: 120px;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-top: 36px;
    
+}
+
+.search-icon{
+    position: absolute;
+    height: 3vh;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    filter: invert(70%);
 }
 
 .searchbar{
     height: 40px;
     width: 50vw;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 30px;
     border-radius: 100px;
-    background-color: rgb(240, 240, 240);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(178, 211, 194);
+    background-color: rgb(237, 252, 248);
+}
+
+.bell-icon{
+    height: 3vh;
+    position: absolute;
+    margin-left: 66vw;
+    margin-top: 4.5vh;
+    filter:invert(70%);
+}
+
+.profile-picture-1, .profile-picture-2{
+    border-radius: 100px;
+    position: absolute;
+}
+
+.profile-picture-1{
+    margin-left: 70px;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.profile-picture-2{
+    margin-left: 69vw;
+    margin-top: 27px;
+    height: 60px;
+    width: 60px;
 }
 
 .name, .greeting{
