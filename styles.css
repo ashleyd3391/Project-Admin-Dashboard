@@ -124,3 +124,51 @@
 .greeting{
     margin-bottom: -10px;
 }
+
+.project-titles{
+    position: absolute;
+    display: grid;
+    width: 50vw;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 260px);
+    margin-left: 25vw;
+    margin-top: -78vh;
+    padding-left: 30px;
+    column-gap: 70px;
+}
+
+.cool, .lesscool, .impossible, .easy, .ad, .money{
+    border: solid;
+    border-width: 6px;
+    padding: 25px;
+    width: 20vw;
+    color:#51AEAE;
+    border-color: #F47B7F;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: ;
+
+}
+
+.details{
+    position: absolute;
+    color: #677271;
+    margin-left: 28vw;
+    display: grid;
+    width: 70vw;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(3, 230px);
+    margin-top: -70vh;
+    column-gap: 170px;
+    row-gap: 30px;
+    
+}
+
+.your-projects{
+    position: absolute;
+    color:#51AEAE;
+    margin-left: 20vw;
+    margin-top: -82vh;
+    font-size: 1.5rem;
+}
