@@ -236,7 +236,7 @@ table {
     grid-template-columns: 300px;
     width: min-content;
     padding: 30px;
-    margin-left: 78vw;
+    margin-left: 100vw;
     position: absolute;
     margin-top: -79vh;
 }
