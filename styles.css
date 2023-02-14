@@ -60,8 +60,8 @@
     border-radius: 100px;
     padding: 10px;
     border: none;
-    background-color: #A1DCD8;
-    color: rgb(42, 129, 116);
+    background-color:#F47B7F;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     width: 120px;
     margin-left: 10px;
@@ -85,7 +85,7 @@
     border-radius: 100px;
     border: solid;
     border-width: 2px;
-    border-color: rgb(178, 211, 194);
+    border-color:#F47B7F;
     background-color: rgb(237, 252, 248);
 }
 
@@ -171,4 +171,57 @@
     margin-left: 20vw;
     margin-top: -82vh;
     font-size: 1.5rem;
+}
+
+.announcements{
+    position: absolute;
+    color:#51AEAE;
+    margin-top: -2vh;
+}
+
+.sidebar2{
+    display: grid;
+    grid-template-columns: 300px;
+    width: min-content;
+    padding: 30px;
+    margin-left: 78vw;
+    position: absolute;
+    margin-top: -79vh;
+}
+
+.site, .community, .privacy{
+    color: #51AEAE;
+}
+
+.site-details, .community-details, .privacy-details{
+    color: #677271;
+    overflow: scroll;
+    height: 100px;
+}
+
+.trending{
+    color: #51AEAE;
+}
+
+.usernames{
+    display: grid;
+    justify-content: flex-end;
+    padding: 50px;
+    padding-top: 20px;
+    color:#677271
+}
+
+.trending-profile-pictures{
+    display: grid;
+    width: min-content;
+    margin-top: -220px;
+    margin-left: 100px;
+    grid-template-rows: repeat(3,60px);
+    row-gap: -12px;
+}
+
+.trending-pictures{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
 }
